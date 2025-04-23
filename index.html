@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Escola Valmile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Auto Escola Valmile</h1>
+                <!-- Espaço para logo quando disponível -->
+                <!-- <img src="img/logo.png" alt="Logo Auto Escola Valmile"> -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="mobile-menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Sua habilitação começa aqui!</h2>
+                <p>Aprenda a dirigir com segurança e confiança na Auto Escola Valmile.</p>
+                <a href="#categorias" class="btn">Ver Categorias</a>
+                <a href="https://wa.me/5500000000000" class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Fale Conosco
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="categorias" class="categorias">
+        <div class="container">
+            <h2>Nossas Categorias</h2>
+            <div class="categorias-grid">
+                <div class="categoria-card">
+                    <div class="categoria-icon">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <h3>Categoria A</h3>
+                    <p>Habilitação para motocicletas e veículos de duas ou três rodas.</p>
+                    <div class="preco">R$ X</div>
+                    <a href="#contato" class="btn btn-small">Saiba Mais</a>
+                </div>
+                
+                <div class="categoria-card">
+                    <div class="categoria-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Categoria B</h3>
+                    <p>Habilitação para veículos de quatro rodas com até 3.500kg.</p>
+                    <div class="preco">R$ X</div>
+                    <a href="#contato" class="btn btn-small">Saiba Mais</a>
+                </div>
+                
+                <div class="categoria-card">
+                    <div class="categoria-icon">
+                        <i class="fas fa-motorcycle"></i>
+                        <i class="fas fa-plus"></i>
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Categoria AB</h3>
+                    <p>Habilitação para motocicletas e carros de passeio.</p>
+                    <div class="preco">R$ X</div>
+                    <a href="#contato" class="btn btn-small">Saiba Mais</a>
+                </div>
+                
+                <div class="categoria-card">
+                    <div class="categoria-icon">
+                        <i class="fas fa-car"></i>
+                        <i class="fas fa-arrow-right"></i>
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <h3>Inclusão de Moto</h3>
+                    <p>Adição da categoria A para quem já possui categoria B.</p>
+                    <div class="preco">R$ X</div>
+                    <a href="#contato" class="btn btn-small">Saiba Mais</a>
+                </div>
+                
+                <div class="categoria-card">
+                    <div class="categoria-icon">
+                        <i class="fas fa-motorcycle"></i>
+                        <i class="fas fa-arrow-right"></i>
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Inclusão de Carro</h3>
+                    <p>Adição da categoria B para quem já possui categoria A.</p>
+                    <div class="preco">R$ X</div>
+                    <a href="#contato" class="btn btn-small">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre a Auto Escola Valmile</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>A Auto Escola Valmile é especializada em formar condutores responsáveis e seguros. Com instrutores experientes e veículos modernos, oferecemos o melhor treinamento para sua habilitação.</p>
+                    <p>Nossa missão é proporcionar um aprendizado de qualidade, garantindo que nossos alunos estejam preparados para dirigir com segurança e confiança.</p>
+                </div>
+                <div class="sobre-image">
+                    <!-- Espaço para imagem quando disponível -->
+                    <!-- <img src="img/sobre.jpg" alt="Auto Escola Valmile"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-form">
+                    <form id="formulario-contato">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone/WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="categoria">Categoria de Interesse</label>
+                            <select id="categoria" name="categoria" required>
+                                <option value="">Selecione uma categoria</option>
+                                <option value="A">Categoria A (Moto)</option>
+                                <option value="B">Categoria B (Carro)</option>
+                                <option value="AB">Categoria AB (Moto e Carro)</option>
+                                <option value="inclusao-moto">Inclusão de Moto</option>
+                                <option value="inclusao-carro">Inclusão de Carro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+                <div class="contato-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Endereço da Auto Escola Valmile</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(00) 0000-0000</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contato@autoescolavalmile.com.br</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5500000000000" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="chat-container" class="chat-container">
+        <div class="chat-header">
+            <h3>Chat de Atendimento</h3>
+            <button id="chat-toggle"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot">
+                <p>Olá! Como posso ajudar você hoje?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-message-input" placeholder="Digite sua mensagem...">
+            <button id="chat-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    
+    <div class="chat-button" id="chat-button">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Auto Escola Valmile</h3>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#categorias">Categorias</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (00) 0000-0000</p>
+                    <p><i class="fas fa-envelope"></i> contato@autoescolavalmile.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Auto Escola Valmile. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
