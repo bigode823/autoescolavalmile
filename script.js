@@ -105,7 +105,9 @@ document.addEventListener('DOMContentLoaded', function() {
             'boa tarde': 'Boa tarde! Como posso ajudar você hoje?',
            'boa noite': 'Boa noite! Como posso ajudar você hoje?',
            'cfc': "Olá, sobre o CFC pode ser realizado em 2 modalidades EAD/PRESENCIAL ambas tem o mesmo custo, entre em contato pelo wpp para mais detalhes",
-           'reabilitação': "A Reabilitação Categoria AB tem um valor de R$ 1.200,00. Entre em contato pelo WhatsApp para mais informações."
+           'reabilitação': "A Reabilitação Categoria AB tem um valor de R$ 1.200,00. Entre em contato pelo WhatsApp para mais informações.",
+           'carta': "Para iniciar o processo de habilitação, você precisará de RG, CPF, comprovante de residência e uma foto 3x4. Entre em contato para mais detalhes."
+
         }
     };
     
