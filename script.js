@@ -103,8 +103,9 @@ document.addEventListener('DOMContentLoaded', function() {
             'oi': 'Olá! Como posso ajudar você hoje?',
             'bom dia': 'Bom dia! Como posso ajudar você hoje?',
             'boa tarde': 'Boa tarde! Como posso ajudar você hoje?',
-            'boa noite': 'Boa noite! Como posso ajudar você hoje?'
-            'cfc': "Olá, sobre o CFC pode ser realizado em 2 modalidades EAD/PRESENCIAL ambas tem o mesmo custo, entre em contato pelo wpp para mais detalhes"
+           'boa noite': 'Boa noite! Como posso ajudar você hoje?',
+           'cfc': "Olá, sobre o CFC pode ser realizado em 2 modalidades EAD/PRESENCIAL ambas tem o mesmo custo, entre em contato pelo wpp para mais detalhes",
+           'reabilitação': "A Reabilitação Categoria AB tem um valor de R$ 1.200,00. Entre em contato pelo WhatsApp para mais informações."
         }
     };
     
