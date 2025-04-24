@@ -104,6 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'bom dia': 'Bom dia! Como posso ajudar você hoje?',
             'boa tarde': 'Boa tarde! Como posso ajudar você hoje?',
             'boa noite': 'Boa noite! Como posso ajudar você hoje?'
+            'cfc': 'Olá,sobre o CFC pode ser realizado em 2 modalidades EAD/PRESENCIAL ambas tem o mesmo custo,entre em contato pelo wpp para mais detalhes'
         }
     };
     
